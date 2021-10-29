@@ -1,0 +1,19 @@
+{
+  "server": {
+    "port": 8018,
+    "address": "0.0.0.0"
+  },
+  "dbs": [
+    {
+      "replicaSet": "",
+      "hosts": ["bastion.twiket.com"],
+      "port": 37023,
+      "user": "pay-proxy",
+      "password": "rlprDx4mMeUSQrwHR2aGqUVV5HnUFc8Z",
+      "database": "pay-proxy",
+      "options": {
+        "appname": "TWIKET-PAY-PROXY"
+      }
+    }
+  ]
+}
